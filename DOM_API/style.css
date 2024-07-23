@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: start;
+    height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 1rem 0;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    justify-content: start;
+    margin: 20px 0;
+}
+
+li:hover {
+    cursor: pointer;
+    border-bottom: 1px solid orangered;
+}
+
+.dark {
+    background-color: black;
+    color: green;
+}
